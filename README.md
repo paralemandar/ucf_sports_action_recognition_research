@@ -3,8 +3,13 @@
 Code and results for the paper:
 
 > **Action recognition on the UCF Sports Action dataset using SlowFast networks: a statistically controlled ablation of pathway design**
-> Mandar Parale, Shankar Mali, Chandrashekhar Patil
+> Mandar Parale, Shankar Mali
 > School of Computer Engineering and Technology, MIT World Peace University, Pune, India
+> School of Data Science, Symbiosis Skills And Profession University, Pune, India
+> Shankar Mali
+> School of Computer Engineering and Technology, MIT World Peace University, Pune, India
+> Chandrashekhar Patil
+> RV University, Mysuru, Karnataka 
 
 - **Kaggle notebook (runnable):** https://www.kaggle.com/code/mandarpparale/ucfsports-slowfast-exp
 - **Dataset:** UCF Sports Action, https://www.crcv.ucf.edu/data/ucf_sports_actions.zip
@@ -37,8 +42,8 @@ Full results for all 14 models are in `results/tables/`.
 ## Repository structure
 
 ```
-├── ucf_sports_slowfast_kaggle.ipynb   # main notebook (run on Kaggle)
-├── ucf_sports_slowfast_kaggle.py      # same code as a plain Python script
+├── src   # main notebook (run on Kaggle)
+    ├──ucfsports-slowfast-exp.ipynb    # main notebook (run on Kaggle)
 ├── results/
 │   ├── config.json                    # all hyperparameters and configuration definitions
 │   ├── environment.json               # library versions and GPU used
@@ -104,43 +109,6 @@ python ucf_sports_slowfast_kaggle.py
 | Slow-Only | 4 | – | 8 | 64 | 22 | – | 0.93 | 0.68 |
 | Fast-Only | – | 32 | – | 64 | – | 3 | 0.02 | 0.49 |
 
-## Citation
-
-If you use this code, please cite:
-
-```bibtex
-@article{parale2026slowfast,
-  title   = {Action recognition on the UCF Sports Action dataset using SlowFast networks: a statistically controlled ablation of pathway design},
-  author  = {Parale, Mandar and Mali, Shankar and Patil, Chandrashekhar},
-  journal = {Pattern Recognition Letters},
-  year    = {2026},
-  note    = {Under review}
-}
-```
-
-Please also cite the dataset:
-
-```bibtex
-@inproceedings{rodriguez2008action,
-  title     = {Action {MACH}: A spatio-temporal maximum average correlation height filter for action recognition},
-  author    = {Rodriguez, Mikel D. and Ahmed, Javed and Shah, Mubarak},
-  booktitle = {Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR)},
-  pages     = {1--8},
-  year      = {2008}
-}
-@incollection{soomro2014action,
-  title     = {Action recognition in realistic sports videos},
-  author    = {Soomro, Khurram and Zamir, Amir R.},
-  booktitle = {Computer Vision in Sports},
-  publisher = {Springer},
-  pages     = {181--208},
-  year      = {2014}
-}
-```
-
-## License
-
-Code: [MIT License]. The UCF Sports Action dataset is provided by the Center for Research in Computer Vision, University of Central Florida, under its own terms of use and is not redistributed here.
 
 ## Contact
 
