@@ -1,0 +1,20 @@
+\begin{tabular}{lrrll}
+\toprule
+Model & Params (M) & GFLOPs & Accuracy (\%) & Macro-F1 (\%) \\
+\midrule
+Baseline & 1.110000 & 1.260000 & 62.67 $\pm$ 8.30 & 54.77 $\pm$ 8.84 \\
+Fast-Dominant & 0.790000 & 2.720000 & 61.33 $\pm$ 7.67 & 51.72 $\pm$ 7.43 \\
+Slow-Dominant & 1.230000 & 1.180000 & 63.33 $\pm$ 7.07 & 53.80 $\pm$ 6.50 \\
+Small-Window & 1.110000 & 1.260000 & 64.67 $\pm$ 4.47 & 57.20 $\pm$ 5.36 \\
+Large-Window & 1.110000 & 1.260000 & 60.67 $\pm$ 7.96 & 53.07 $\pm$ 7.38 \\
+Slow-Only & 0.930000 & 0.680000 & 63.33 $\pm$ 6.67 & 55.50 $\pm$ 7.19 \\
+Fast-Only & 0.020000 & 0.490000 & 40.00 $\pm$ 4.71 & 21.56 $\pm$ 2.64 \\
+mvit_v2_s (linear probe) & -- & -- & 82.00 $\pm$ 5.06 & 74.59 $\pm$ 6.22 \\
+r2plus1d_18 (linear probe) & -- & -- & 82.67 $\pm$ 2.79 & 78.10 $\pm$ 7.47 \\
+s3d (linear probe) & -- & -- & 88.67 $\pm$ 5.58 & 86.69 $\pm$ 7.15 \\
+slowfast_r50 (linear probe) & -- & -- & 85.33 $\pm$ 6.91 & 82.70 $\pm$ 8.97 \\
+swin3d_t (linear probe) & -- & -- & 84.67 $\pm$ 5.58 & 80.95 $\pm$ 5.30 \\
+timesformer (linear probe) & -- & -- & 86.00 $\pm$ 4.35 & 81.25 $\pm$ 5.65 \\
+videomae (linear probe) & -- & -- & 86.67 $\pm$ 4.08 & 82.04 $\pm$ 6.47 \\
+\bottomrule
+\end{tabular}

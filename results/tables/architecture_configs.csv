@@ -1,0 +1,8 @@
+config,alpha,T_fast,T_slow,window,slow_width,fast_width,beta,params,GFLOPs
+Baseline,4,32,8,64,22,3,0.136,1108794,1.26
+Fast-Dominant,4,32,8,64,11,11,1.0,789120,2.72
+Slow-Dominant,4,32,8,64,24,2,0.083,1232359,1.18
+Small-Window,4,32,8,32,22,3,0.136,1108794,1.26
+Large-Window,4,32,8,full video,22,3,0.136,1108794,1.26
+Slow-Only,4,32,8,64,22,0,-,933891,0.68
+Fast-Only,4,32,0,64,0,3,-,20512,0.49

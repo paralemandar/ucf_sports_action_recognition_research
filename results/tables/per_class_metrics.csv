@@ -1,0 +1,183 @@
+model,cls,precision,recall,f1,support
+Baseline,Diving-Side,0.9333333333333333,1.0,0.9655172413793104,14
+Baseline,Golf-Swing-Back,0.0,0.0,0.0,5
+Baseline,Golf-Swing-Front,0.45454545454545453,0.625,0.5263157894736842,8
+Baseline,Golf-Swing-Side,1.0,0.2,0.3333333333333333,5
+Baseline,Kicking-Front,0.3333333333333333,0.2,0.25,10
+Baseline,Kicking-Side,0.0,0.0,0.0,10
+Baseline,Lifting,1.0,1.0,1.0,6
+Baseline,Riding-Horse,0.7692307692307693,0.8333333333333334,0.8,12
+Baseline,Run-Side,0.46153846153846156,0.46153846153846156,0.46153846153846156,13
+Baseline,SkateBoarding-Front,0.5263157894736842,0.8333333333333334,0.6451612903225806,12
+Baseline,Swing-Bench,0.8636363636363636,0.95,0.9047619047619048,20
+Baseline,Swing-SideAngle,1.0,0.9230769230769231,0.96,13
+Baseline,Walk-Front,0.375,0.4090909090909091,0.391304347826087,22
+Fast-Dominant,Diving-Side,0.9333333333333333,1.0,0.9655172413793104,14
+Fast-Dominant,Golf-Swing-Back,0.0,0.0,0.0,5
+Fast-Dominant,Golf-Swing-Front,0.42857142857142855,0.375,0.4,8
+Fast-Dominant,Golf-Swing-Side,0.0,0.0,0.0,5
+Fast-Dominant,Kicking-Front,0.42857142857142855,0.3,0.35294117647058826,10
+Fast-Dominant,Kicking-Side,0.0,0.0,0.0,10
+Fast-Dominant,Lifting,1.0,1.0,1.0,6
+Fast-Dominant,Riding-Horse,0.7142857142857143,0.8333333333333334,0.7692307692307693,12
+Fast-Dominant,Run-Side,0.46153846153846156,0.46153846153846156,0.46153846153846156,13
+Fast-Dominant,SkateBoarding-Front,0.6111111111111112,0.9166666666666666,0.7333333333333333,12
+Fast-Dominant,Swing-Bench,0.7916666666666666,0.95,0.8636363636363636,20
+Fast-Dominant,Swing-SideAngle,0.9090909090909091,0.7692307692307693,0.8333333333333334,13
+Fast-Dominant,Walk-Front,0.38461538461538464,0.45454545454545453,0.4166666666666667,22
+Fast-Only,Diving-Side,0.6086956521739131,1.0,0.7567567567567568,14
+Fast-Only,Golf-Swing-Back,0.0,0.0,0.0,5
+Fast-Only,Golf-Swing-Front,0.0,0.0,0.0,8
+Fast-Only,Golf-Swing-Side,0.0,0.0,0.0,5
+Fast-Only,Kicking-Front,0.0,0.0,0.0,10
+Fast-Only,Kicking-Side,0.0,0.0,0.0,10
+Fast-Only,Lifting,0.0,0.0,0.0,6
+Fast-Only,Riding-Horse,0.5555555555555556,0.4166666666666667,0.47619047619047616,12
+Fast-Only,Run-Side,0.18181818181818182,0.15384615384615385,0.16666666666666666,13
+Fast-Only,SkateBoarding-Front,0.2857142857142857,0.16666666666666666,0.21052631578947367,12
+Fast-Only,Swing-Bench,0.5135135135135135,0.95,0.6666666666666666,20
+Fast-Only,Swing-SideAngle,0.6666666666666666,0.3076923076923077,0.42105263157894735,13
+Fast-Only,Walk-Front,0.24561403508771928,0.6363636363636364,0.35443037974683544,22
+Large-Window,Diving-Side,0.9333333333333333,1.0,0.9655172413793104,14
+Large-Window,Golf-Swing-Back,0.3333333333333333,0.2,0.25,5
+Large-Window,Golf-Swing-Front,0.36363636363636365,0.5,0.42105263157894735,8
+Large-Window,Golf-Swing-Side,0.0,0.0,0.0,5
+Large-Window,Kicking-Front,0.4,0.2,0.26666666666666666,10
+Large-Window,Kicking-Side,0.0,0.0,0.0,10
+Large-Window,Lifting,1.0,1.0,1.0,6
+Large-Window,Riding-Horse,0.7142857142857143,0.8333333333333334,0.7692307692307693,12
+Large-Window,Run-Side,0.4375,0.5384615384615384,0.4827586206896552,13
+Large-Window,SkateBoarding-Front,0.5454545454545454,0.5,0.5217391304347826,12
+Large-Window,Swing-Bench,0.9047619047619048,0.95,0.926829268292683,20
+Large-Window,Swing-SideAngle,1.0,0.9230769230769231,0.96,13
+Large-Window,Walk-Front,0.35714285714285715,0.45454545454545453,0.4,22
+Slow-Dominant,Diving-Side,0.9333333333333333,1.0,0.9655172413793104,14
+Slow-Dominant,Golf-Swing-Back,0.0,0.0,0.0,5
+Slow-Dominant,Golf-Swing-Front,0.42857142857142855,0.375,0.4,8
+Slow-Dominant,Golf-Swing-Side,0.0,0.0,0.0,5
+Slow-Dominant,Kicking-Front,0.5,0.3,0.375,10
+Slow-Dominant,Kicking-Side,0.1111111111111111,0.1,0.10526315789473684,10
+Slow-Dominant,Lifting,1.0,1.0,1.0,6
+Slow-Dominant,Riding-Horse,0.7142857142857143,0.8333333333333334,0.7692307692307693,12
+Slow-Dominant,Run-Side,0.46153846153846156,0.46153846153846156,0.46153846153846156,13
+Slow-Dominant,SkateBoarding-Front,0.5555555555555556,0.8333333333333334,0.6666666666666666,12
+Slow-Dominant,Swing-Bench,0.8636363636363636,0.95,0.9047619047619048,20
+Slow-Dominant,Swing-SideAngle,1.0,0.9230769230769231,0.96,13
+Slow-Dominant,Walk-Front,0.4074074074074074,0.5,0.4489795918367347,22
+Slow-Only,Diving-Side,0.9333333333333333,1.0,0.9655172413793104,14
+Slow-Only,Golf-Swing-Back,0.25,0.2,0.2222222222222222,5
+Slow-Only,Golf-Swing-Front,0.375,0.375,0.375,8
+Slow-Only,Golf-Swing-Side,1.0,0.2,0.3333333333333333,5
+Slow-Only,Kicking-Front,0.42857142857142855,0.3,0.35294117647058826,10
+Slow-Only,Kicking-Side,0.0,0.0,0.0,10
+Slow-Only,Lifting,1.0,1.0,1.0,6
+Slow-Only,Riding-Horse,0.6111111111111112,0.9166666666666666,0.7333333333333333,12
+Slow-Only,Run-Side,0.42857142857142855,0.46153846153846156,0.4444444444444444,13
+Slow-Only,SkateBoarding-Front,0.6153846153846154,0.6666666666666666,0.64,12
+Slow-Only,Swing-Bench,0.8636363636363636,0.95,0.9047619047619048,20
+Slow-Only,Swing-SideAngle,1.0,0.9230769230769231,0.96,13
+Slow-Only,Walk-Front,0.4583333333333333,0.5,0.4782608695652174,22
+Small-Window,Diving-Side,0.9333333333333333,1.0,0.9655172413793104,14
+Small-Window,Golf-Swing-Back,0.3333333333333333,0.4,0.36363636363636365,5
+Small-Window,Golf-Swing-Front,0.4444444444444444,0.5,0.47058823529411764,8
+Small-Window,Golf-Swing-Side,1.0,0.2,0.3333333333333333,5
+Small-Window,Kicking-Front,0.3333333333333333,0.2,0.25,10
+Small-Window,Kicking-Side,0.0,0.0,0.0,10
+Small-Window,Lifting,1.0,1.0,1.0,6
+Small-Window,Riding-Horse,0.7857142857142857,0.9166666666666666,0.8461538461538461,12
+Small-Window,Run-Side,0.42857142857142855,0.46153846153846156,0.4444444444444444,13
+Small-Window,SkateBoarding-Front,0.5294117647058824,0.75,0.6206896551724138,12
+Small-Window,Swing-Bench,0.8636363636363636,0.95,0.9047619047619048,20
+Small-Window,Swing-SideAngle,1.0,0.9230769230769231,0.96,13
+Small-Window,Walk-Front,0.4782608695652174,0.5,0.4888888888888889,22
+mvit_v2_s (linear probe),Diving-Side,1.0,1.0,1.0,14
+mvit_v2_s (linear probe),Golf-Swing-Back,0.6666666666666666,0.8,0.7272727272727273,5
+mvit_v2_s (linear probe),Golf-Swing-Front,0.625,0.625,0.625,8
+mvit_v2_s (linear probe),Golf-Swing-Side,0.6,0.6,0.6,5
+mvit_v2_s (linear probe),Kicking-Front,0.4444444444444444,0.4,0.42105263157894735,10
+mvit_v2_s (linear probe),Kicking-Side,0.4166666666666667,0.5,0.45454545454545453,10
+mvit_v2_s (linear probe),Lifting,1.0,0.8333333333333334,0.9090909090909091,6
+mvit_v2_s (linear probe),Riding-Horse,1.0,1.0,1.0,12
+mvit_v2_s (linear probe),Run-Side,0.7272727272727273,0.6153846153846154,0.6666666666666666,13
+mvit_v2_s (linear probe),SkateBoarding-Front,0.9230769230769231,1.0,0.96,12
+mvit_v2_s (linear probe),Swing-Bench,1.0,1.0,1.0,20
+mvit_v2_s (linear probe),Swing-SideAngle,1.0,1.0,1.0,13
+mvit_v2_s (linear probe),Walk-Front,0.8181818181818182,0.8181818181818182,0.8181818181818182,22
+r2plus1d_18 (linear probe),Diving-Side,0.9333333333333333,1.0,0.9655172413793104,14
+r2plus1d_18 (linear probe),Golf-Swing-Back,0.8,0.8,0.8,5
+r2plus1d_18 (linear probe),Golf-Swing-Front,0.45454545454545453,0.625,0.5263157894736842,8
+r2plus1d_18 (linear probe),Golf-Swing-Side,0.6,0.6,0.6,5
+r2plus1d_18 (linear probe),Kicking-Front,0.7,0.7,0.7,10
+r2plus1d_18 (linear probe),Kicking-Side,0.5,0.5,0.5,10
+r2plus1d_18 (linear probe),Lifting,1.0,1.0,1.0,6
+r2plus1d_18 (linear probe),Riding-Horse,1.0,0.9166666666666666,0.9565217391304348,12
+r2plus1d_18 (linear probe),Run-Side,0.9,0.6923076923076923,0.782608695652174,13
+r2plus1d_18 (linear probe),SkateBoarding-Front,0.8333333333333334,0.8333333333333334,0.8333333333333334,12
+r2plus1d_18 (linear probe),Swing-Bench,1.0,0.95,0.9743589743589743,20
+r2plus1d_18 (linear probe),Swing-SideAngle,1.0,1.0,1.0,13
+r2plus1d_18 (linear probe),Walk-Front,0.782608695652174,0.8181818181818182,0.8,22
+s3d (linear probe),Diving-Side,1.0,1.0,1.0,14
+s3d (linear probe),Golf-Swing-Back,0.8,0.8,0.8,5
+s3d (linear probe),Golf-Swing-Front,0.75,0.75,0.75,8
+s3d (linear probe),Golf-Swing-Side,0.8333333333333334,1.0,0.9090909090909091,5
+s3d (linear probe),Kicking-Front,0.8,0.8,0.8,10
+s3d (linear probe),Kicking-Side,0.6,0.6,0.6,10
+s3d (linear probe),Lifting,1.0,1.0,1.0,6
+s3d (linear probe),Riding-Horse,1.0,1.0,1.0,12
+s3d (linear probe),Run-Side,0.75,0.6923076923076923,0.72,13
+s3d (linear probe),SkateBoarding-Front,0.9166666666666666,0.9166666666666666,0.9166666666666666,12
+s3d (linear probe),Swing-Bench,1.0,1.0,1.0,20
+s3d (linear probe),Swing-SideAngle,1.0,1.0,1.0,13
+s3d (linear probe),Walk-Front,0.8636363636363636,0.8636363636363636,0.8636363636363636,22
+slowfast_r50 (linear probe),Diving-Side,1.0,1.0,1.0,14
+slowfast_r50 (linear probe),Golf-Swing-Back,0.8,0.8,0.8,5
+slowfast_r50 (linear probe),Golf-Swing-Front,0.6666666666666666,0.75,0.7058823529411765,8
+slowfast_r50 (linear probe),Golf-Swing-Side,0.8333333333333334,1.0,0.9090909090909091,5
+slowfast_r50 (linear probe),Kicking-Front,0.375,0.3,0.3333333333333333,10
+slowfast_r50 (linear probe),Kicking-Side,0.38461538461538464,0.5,0.43478260869565216,10
+slowfast_r50 (linear probe),Lifting,1.0,1.0,1.0,6
+slowfast_r50 (linear probe),Riding-Horse,0.9230769230769231,1.0,0.96,12
+slowfast_r50 (linear probe),Run-Side,0.9,0.6923076923076923,0.782608695652174,13
+slowfast_r50 (linear probe),SkateBoarding-Front,1.0,1.0,1.0,12
+slowfast_r50 (linear probe),Swing-Bench,1.0,1.0,1.0,20
+slowfast_r50 (linear probe),Swing-SideAngle,1.0,1.0,1.0,13
+slowfast_r50 (linear probe),Walk-Front,0.9047619047619048,0.8636363636363636,0.8837209302325582,22
+swin3d_t (linear probe),Diving-Side,1.0,1.0,1.0,14
+swin3d_t (linear probe),Golf-Swing-Back,0.8,0.8,0.8,5
+swin3d_t (linear probe),Golf-Swing-Front,0.6363636363636364,0.875,0.7368421052631579,8
+swin3d_t (linear probe),Golf-Swing-Side,1.0,0.8,0.8888888888888888,5
+swin3d_t (linear probe),Kicking-Front,0.375,0.3,0.3333333333333333,10
+swin3d_t (linear probe),Kicking-Side,0.35714285714285715,0.5,0.4166666666666667,10
+swin3d_t (linear probe),Lifting,1.0,1.0,1.0,6
+swin3d_t (linear probe),Riding-Horse,1.0,1.0,1.0,12
+swin3d_t (linear probe),Run-Side,0.8888888888888888,0.6153846153846154,0.7272727272727273,13
+swin3d_t (linear probe),SkateBoarding-Front,1.0,1.0,1.0,12
+swin3d_t (linear probe),Swing-Bench,1.0,1.0,1.0,20
+swin3d_t (linear probe),Swing-SideAngle,1.0,1.0,1.0,13
+swin3d_t (linear probe),Walk-Front,0.8636363636363636,0.8636363636363636,0.8636363636363636,22
+timesformer (linear probe),Diving-Side,1.0,1.0,1.0,14
+timesformer (linear probe),Golf-Swing-Back,0.8,0.8,0.8,5
+timesformer (linear probe),Golf-Swing-Front,0.6363636363636364,0.875,0.7368421052631579,8
+timesformer (linear probe),Golf-Swing-Side,1.0,0.8,0.8888888888888888,5
+timesformer (linear probe),Kicking-Front,0.5,0.5,0.5,10
+timesformer (linear probe),Kicking-Side,0.45454545454545453,0.5,0.47619047619047616,10
+timesformer (linear probe),Lifting,1.0,1.0,1.0,6
+timesformer (linear probe),Riding-Horse,1.0,1.0,1.0,12
+timesformer (linear probe),Run-Side,0.8888888888888888,0.6153846153846154,0.7272727272727273,13
+timesformer (linear probe),SkateBoarding-Front,1.0,1.0,1.0,12
+timesformer (linear probe),Swing-Bench,1.0,1.0,1.0,20
+timesformer (linear probe),Swing-SideAngle,1.0,1.0,1.0,13
+timesformer (linear probe),Walk-Front,0.8260869565217391,0.8636363636363636,0.8444444444444444,22
+videomae (linear probe),Diving-Side,1.0,1.0,1.0,14
+videomae (linear probe),Golf-Swing-Back,0.8,0.8,0.8,5
+videomae (linear probe),Golf-Swing-Front,0.7,0.875,0.7777777777777778,8
+videomae (linear probe),Golf-Swing-Side,1.0,0.8,0.8888888888888888,5
+videomae (linear probe),Kicking-Front,0.5,0.5,0.5,10
+videomae (linear probe),Kicking-Side,0.5,0.5,0.5,10
+videomae (linear probe),Lifting,1.0,1.0,1.0,6
+videomae (linear probe),Riding-Horse,0.9230769230769231,1.0,0.96,12
+videomae (linear probe),Run-Side,0.8,0.6153846153846154,0.6956521739130435,13
+videomae (linear probe),SkateBoarding-Front,0.9230769230769231,1.0,0.96,12
+videomae (linear probe),Swing-Bench,1.0,1.0,1.0,20
+videomae (linear probe),Swing-SideAngle,1.0,1.0,1.0,13
+videomae (linear probe),Walk-Front,0.9090909090909091,0.9090909090909091,0.9090909090909091,22

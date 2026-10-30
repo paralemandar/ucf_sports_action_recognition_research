@@ -1,0 +1,13 @@
+\begin{tabular}{lrrrlrrlrr}
+\toprule
+config & alpha & T_fast & T_slow & window & slow_width & fast_width & beta & params & GFLOPs \\
+\midrule
+Baseline & 4 & 32 & 8 & 64 & 22 & 3 & 0.136000 & 1108794 & 1.260000 \\
+Fast-Dominant & 4 & 32 & 8 & 64 & 11 & 11 & 1.000000 & 789120 & 2.720000 \\
+Slow-Dominant & 4 & 32 & 8 & 64 & 24 & 2 & 0.083000 & 1232359 & 1.180000 \\
+Small-Window & 4 & 32 & 8 & 32 & 22 & 3 & 0.136000 & 1108794 & 1.260000 \\
+Large-Window & 4 & 32 & 8 & full video & 22 & 3 & 0.136000 & 1108794 & 1.260000 \\
+Slow-Only & 4 & 32 & 8 & 64 & 22 & 0 & - & 933891 & 0.680000 \\
+Fast-Only & 4 & 32 & 0 & 64 & 0 & 3 & - & 20512 & 0.490000 \\
+\bottomrule
+\end{tabular}

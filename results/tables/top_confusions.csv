@@ -1,0 +1,71 @@
+model,true,predicted,count
+Baseline,Walk-Front,SkateBoarding-Front,6
+Baseline,Golf-Swing-Side,Walk-Front,4
+Baseline,Walk-Front,Golf-Swing-Front,3
+Baseline,Kicking-Side,Walk-Front,3
+Baseline,Kicking-Front,Kicking-Side,3
+Fast-Dominant,Kicking-Side,Walk-Front,4
+Fast-Dominant,Walk-Front,Riding-Horse,3
+Fast-Dominant,Swing-SideAngle,Swing-Bench,3
+Fast-Dominant,Kicking-Front,Walk-Front,3
+Fast-Dominant,Walk-Front,SkateBoarding-Front,3
+Fast-Only,Swing-SideAngle,Swing-Bench,9
+Fast-Only,Run-Side,Walk-Front,9
+Fast-Only,SkateBoarding-Front,Walk-Front,8
+Fast-Only,Kicking-Front,Walk-Front,6
+Fast-Only,Lifting,Diving-Side,6
+Large-Window,Golf-Swing-Side,Walk-Front,5
+Large-Window,Kicking-Side,Walk-Front,4
+Large-Window,Walk-Front,Golf-Swing-Front,3
+Large-Window,Walk-Front,Riding-Horse,3
+Large-Window,Golf-Swing-Front,Walk-Front,3
+Slow-Dominant,Golf-Swing-Side,Walk-Front,5
+Slow-Dominant,Golf-Swing-Front,Walk-Front,4
+Slow-Dominant,Walk-Front,SkateBoarding-Front,4
+Slow-Dominant,Golf-Swing-Back,Run-Side,3
+Slow-Dominant,Walk-Front,Kicking-Side,2
+Slow-Only,Walk-Front,Riding-Horse,4
+Slow-Only,Golf-Swing-Front,Walk-Front,4
+Slow-Only,Kicking-Side,Walk-Front,3
+Slow-Only,Kicking-Front,Golf-Swing-Front,3
+Slow-Only,Walk-Front,SkateBoarding-Front,2
+Small-Window,Walk-Front,SkateBoarding-Front,4
+Small-Window,Kicking-Front,Run-Side,3
+Small-Window,Kicking-Front,Kicking-Side,3
+Small-Window,Golf-Swing-Side,Walk-Front,3
+Small-Window,Golf-Swing-Front,Walk-Front,3
+mvit_v2_s (linear probe),Kicking-Side,Kicking-Front,5
+mvit_v2_s (linear probe),Kicking-Front,Kicking-Side,5
+mvit_v2_s (linear probe),Run-Side,Walk-Front,3
+mvit_v2_s (linear probe),Walk-Front,Golf-Swing-Front,2
+mvit_v2_s (linear probe),Walk-Front,Run-Side,2
+r2plus1d_18 (linear probe),Walk-Front,Golf-Swing-Front,3
+r2plus1d_18 (linear probe),Kicking-Front,Kicking-Side,3
+r2plus1d_18 (linear probe),Kicking-Side,Kicking-Front,3
+r2plus1d_18 (linear probe),SkateBoarding-Front,Walk-Front,2
+r2plus1d_18 (linear probe),Golf-Swing-Side,Golf-Swing-Front,2
+s3d (linear probe),Walk-Front,Run-Side,2
+s3d (linear probe),Kicking-Side,Kicking-Front,2
+s3d (linear probe),Kicking-Front,Kicking-Side,2
+s3d (linear probe),Run-Side,Kicking-Side,2
+s3d (linear probe),SkateBoarding-Front,Walk-Front,1
+slowfast_r50 (linear probe),Kicking-Front,Kicking-Side,7
+slowfast_r50 (linear probe),Kicking-Side,Kicking-Front,5
+slowfast_r50 (linear probe),Run-Side,Walk-Front,2
+slowfast_r50 (linear probe),Walk-Front,Golf-Swing-Front,2
+slowfast_r50 (linear probe),Walk-Front,Run-Side,1
+swin3d_t (linear probe),Kicking-Front,Kicking-Side,7
+swin3d_t (linear probe),Kicking-Side,Kicking-Front,5
+swin3d_t (linear probe),Run-Side,Walk-Front,3
+swin3d_t (linear probe),Run-Side,Kicking-Side,2
+swin3d_t (linear probe),Walk-Front,Golf-Swing-Front,2
+timesformer (linear probe),Kicking-Side,Kicking-Front,5
+timesformer (linear probe),Kicking-Front,Kicking-Side,5
+timesformer (linear probe),Run-Side,Walk-Front,4
+timesformer (linear probe),Walk-Front,Golf-Swing-Front,2
+timesformer (linear probe),Walk-Front,Run-Side,1
+videomae (linear probe),Kicking-Side,Kicking-Front,4
+videomae (linear probe),Kicking-Front,Kicking-Side,4
+videomae (linear probe),Kicking-Side,SkateBoarding-Front,1
+videomae (linear probe),Walk-Front,Golf-Swing-Front,1
+videomae (linear probe),Run-Side,Golf-Swing-Front,1
