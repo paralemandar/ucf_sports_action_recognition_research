@@ -1,16 +1,9 @@
 # SlowFast Pathway Ablation on UCF Sports Action
 
-Code and results for the paper:
+Title of paper:
 
 > **Action recognition on the UCF Sports Action dataset using SlowFast networks: a statistically controlled ablation of pathway design**
-> Mandar Parale
-> School of Computer Engineering and Technology, MIT World Peace University, Pune, India
-> School of Data Science, Symbiosis Skills And Profession University, Pune, India
-> Shankar Mali
-> School of Computer Engineering and Technology, MIT World Peace University, Pune, India
-> Chandrashekhar Patil
-> RV University, Mysuru, Karnataka
-> 
+
 - **Kaggle notebook (runnable):** https://www.kaggle.com/code/mandarpparale/ucfsports-slowfast-exp
 - **Dataset:** UCF Sports Action, https://www.crcv.ucf.edu/data/ucf_sports_actions.zip
 
